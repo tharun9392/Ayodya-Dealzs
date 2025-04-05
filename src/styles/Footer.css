@@ -1,0 +1,71 @@
+/* Responsive styling for footer */
+
+/* Adjust iframe for small screens */
+footer iframe {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center and space out social icons */
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Ensure sufficient spacing for icons */
+}
+
+/* Ensure footer text aligns properly on small devices */
+footer h5 {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem; /* Adjust for readability */
+}
+
+footer p {
+  font-size: 0.9rem; /* Slightly reduce font size for smaller screens */
+}
+
+/* Ensure contact icons are spaced and aligned */
+footer .fa-icon {
+  margin-right: 0.5rem;
+}
+
+/* Add hover effect to social media links */
+footer a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+footer a:hover {
+  color: #ff9800; /* Add a vibrant hover color */
+}
+
+/* Footer background and text styling */
+footer .bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+footer .text-white {
+  color: #f0f0f0 !important;
+}
+
+/* Flexbox adjustments for different screen sizes */
+@media (max-width: 768px) {
+  footer .social-icons {
+    gap: 15px; /* Reduce gap on smaller screens */
+  }
+
+  footer h5 {
+    font-size: 1.1rem;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .social-icons {
+    flex-wrap: wrap; /* Wrap icons to avoid overlap */
+  }
+}
