@@ -93,13 +93,6 @@ src/
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- Your Name - *Initial work* - [YourGithub](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
@@ -107,11 +100,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - React.js community
 - All contributors and supporters
 
-## 📧 Contact
 
-For any queries or support, please contact:
-- Email: your.email@example.com
-- Website: [Your Website](https://yourwebsite.com)
-
----
-Made with ❤️ by [Your Name/Company]
